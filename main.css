@@ -173,7 +173,8 @@ padding-top: 2rem;
 .details {
     display: grid;
     grid-auto-flow:dense;
-
+    grid-template-columns: auto  1fr 1fr ;
+    grid-template-rows: auto 1fr 1fr;
 }
 #main{
     /* display:none; */
@@ -307,10 +308,7 @@ col div {
         margin: -30px;
     } */
     
-    .details {
-        grid-template-columns: auto  1fr 1fr ;
-        grid-template-rows: auto 1fr 1fr;
-    }
+    
     
     
 .weather-forecast .weather-forecast-item {
