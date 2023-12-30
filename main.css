@@ -299,7 +299,7 @@ col div {
 }
 
 
-@media only screen and (max-width:730px) {
+@media only screen and (max-width:768px) {
 /* 
     .col svg {
         width: 1.5em;
@@ -308,6 +308,14 @@ col div {
         margin: -30px;
     } */
     
+   .weather{
+    margin: 0;
+    border-radius: 10px;
+    
+   }
+    .details {
+scale: .8;
+    }
     
     
     
