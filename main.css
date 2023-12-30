@@ -387,4 +387,13 @@ justify-content: start;
 
     }
 
+.main h3 {
+        font-size: .6rem;
+
+}
+.weather h2 , h3{
+    font-size: clamp(.6rem,.7rem, 1rem);
+    font-weight: 200;
+    margin-block:.5em;
+}
 }
